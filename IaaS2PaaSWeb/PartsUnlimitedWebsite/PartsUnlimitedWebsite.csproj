@@ -134,10 +134,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <AdditionalFiles Include="..\..\PartsUnlimited.DepValidation\DependencyValidation1.layerdiagram">
+    <!-- <AdditionalFiles Include="..\..\PartsUnlimited.DepValidation\DependencyValidation1.layerdiagram">
       <Link>DependencyValidation1.layerdiagram</Link>
       <Visible>False</Visible>
-    </AdditionalFiles>
+    </AdditionalFiles> -->
     <None Include="Properties\PublishProfiles\BartPartsUnlimited - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Properties\PublishProfiles\partsunlimited-vcurrent.pubxml" />
@@ -171,8 +171,8 @@
     <PackageReference Include="Microsoft.AspNetCore.SystemWebAdapters" Version="1.4.0" />
     <PackageReference Include="System.Runtime.Caching" Version="[6.0.0, )" />
     <PackageReference Include="Microsoft.AspNetCore.Owin" Version="6.0.29" />
-    <PackageReference Include="System.Configuration.ConfigurationManager" Version="[6.0.0, )" />
-    <PackageReference Include="Microsoft.AspNetCore.Authentication.Google" Version="*" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="[6.0.1, )" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Google" Version="8.0.13" />
     <PackageReference Include="Microsoft.Owin.Security.Google" Version="3.1.0" />
     <PackageReference Include="Respond" Version="1.4.2" />
     <PackageReference Include="Microsoft.Owin.Security.Twitter" Version="3.1.0" />
@@ -181,7 +181,7 @@
     <PackageReference Include="Microsoft.Owin.Security.MicrosoftAccount" Version="3.1.0" />
     <PackageReference Include="Microsoft.AspNet.WebApi" Version="5.2.3" />
     <PackageReference Include="Microsoft.AspNet.SignalR.Owin" Version="1.2.2" />
-    <PackageReference Include="Microsoft.AspNet.SignalR.SystemWeb" Version="2.2.2" />
+    <PackageReference Include="Microsoft.AspNet.SignalR.SystemWeb" Version="2.4.3" />
     <PackageReference Include="Microsoft.AspNet.Identity.Owin" Version="2.2.1" />
     <PackageReference Include="Microsoft.Owin.Security.Facebook" Version="3.1.0" />
     <PackageReference Include="Modernizr" Version="2.8.3" />
